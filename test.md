@@ -59,4 +59,7 @@
 * 3.提高评价系统，用户消费后可以采用匿名的方式对商家进行打分，评价。
 
 下面是本次讨论的思维导图：
-
+![image](https://github.com/resisterdkdk/newhug/blob/master/img/扫码点餐软件.png)<br>
+***
+edit by：李嘉泳
+***
