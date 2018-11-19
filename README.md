@@ -39,6 +39,7 @@ github使用方法：
 5. git push -u origin master //把本地仓库的文件推送到远程仓库
  
 提交之后就会出现以下错误
+![image](https://github.com/resisterdkdk/newhug/blob/master/img/error.png)<br>
 
 正确步骤：
 1. git init //初始化仓库
