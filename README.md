@@ -5,6 +5,7 @@
    [链接](https://blog.csdn.net/ljc_563812704/article/details/53464039)
 
 ## github使用方法：
+   [链接](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 ###  将本地项目或代码上传到别人GitHub（码云）的远程分支上
 　　今天碰到了这样一个问题，折腾了半天，就是将自己本地代码上传到人家的远程分支上。
 
