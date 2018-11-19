@@ -61,5 +61,5 @@
 下面是本次讨论的思维导图：
 ![image](https://github.com/resisterdkdk/newhug/blob/master/img/扫码点餐软件.png)<br>
 ***
-edit by：李嘉泳
+edit by：李嘉泳（NO.18214753）
 ***
