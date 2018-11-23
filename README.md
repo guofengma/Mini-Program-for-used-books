@@ -3,7 +3,7 @@
 [系统分析与设计项目模板](https://sysu-sasd-project.github.io/dashboard/)
 ## Markdown编写教程
    [链接](https://blog.csdn.net/ljc_563812704/article/details/53464039)
-## Uml编辑软件下载链接
+## Uml编辑软件Umlet下载链接
    [链接](https://pan.baidu.com/s/1tNIlWeT5h2yFyOjV-2NlMA)
 ## github使用方法：
    [链接](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
