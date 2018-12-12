@@ -1,4 +1,4 @@
-# 扫码点餐小程序
+# 中大二手书交易平台小程序
 
 [系统分析与设计项目模板](https://sysu-sasd-project.github.io/dashboard/)
 ## Markdown编写教程
