@@ -11,7 +11,7 @@ Page({
     pickerIndex: 0,
     pickerArray: ['大一教材', '大二教材', '大三教材', '大四教材', '非教材'],
     college: '0',
-    collegeArray: ['电气信息学院', '国际商学院', '翻译学院', '人文学院'],
+    collegeArray: ['数据科学与计算机学院', '电子与信息工程学院', '药学院', '工学院', '法学院', '管理学院'],
     wechat: ''
   },
   onShow(options) {
