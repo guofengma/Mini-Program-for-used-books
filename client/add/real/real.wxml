@@ -1,0 +1,54 @@
+<!-- pages/mine/mine.wxml -->
+<view>
+  <view class="flexRow userinfo">
+    <button class="flexRow left">
+      <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : '../../utils/user-unlogin.png'}}" background-size="cover"></image>
+      <view class="userinfo-nickname">
+        <text>{{logged ? userInfo.nickName : '未登录'}}</text>
+      </view>
+    </button>
+    <view class="flexColumn right">
+      <text>暨大珠区</text>
+      <text class="userinfo-auth">{{real === false ? '未认证' : '已认证'}}</text>
+    </view>
+  </view>
+  <space height="80rpx" />
+  <form class="form"
+        bind:submit="formSubmit">
+    <realItem name="realName"
+              title="姓名"
+              icon="../../utils/iconMine/publish.png"
+              bind:valueChange="valueChange"
+              placeholder="请输入你的真实姓名"
+              value="{{realName}}"></realItem>
+    <realItem name="college"
+              title="学院"
+              icon="../../utils/iconMine/publish.png"
+              bind:pickerChange="pickerChange"
+              value="{{college}}"></realItem>
+    <realItem name="major"
+              title="专业"
+              icon="../../utils/iconMine/publish.png"
+              bind:valueChange="valueChange"
+              placeholder="比如：信息安全"
+              value="{{major}}"></realItem>
+    <realItem name="phone"
+              title="电话"
+              icon="../../utils/iconMine/publish.png"
+              bind:valueChange="valueChange"
+              placeholder="请输入你的电话号码"
+              value="{{phone}}"></realItem>
+    <realItem name="wechat"
+              title="微信号"
+              icon="../../utils/iconMine/publish.png"
+              bind:valueChange="valueChange"
+              placeholder="请输入你的微信号"
+              value="{{wechat}}"></realItem>
+    <space height="80rpx" />
+    <button form-type="submit"
+            type="default"
+            style="width: 70%;color: #FFF;background-color:#40a9ff;font-size: 34rpx;">
+      <text decode="true">认证</text>
+    </button>
+  </form>
+</view>
