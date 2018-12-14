@@ -1,0 +1,71 @@
+Page {
+  background-color: #ffffff;
+}
+.form {
+  width: 100%;
+  font-size: 32rpx;
+  margin-bottom: 50rpx;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 30rpx;
+}
+.text {
+  text-align: center;
+  line-height: 50rpx;
+}
+.input {
+  border: 1px solid #999;
+  width: 550rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.picker {
+  border: 1px solid #999;
+  width: 550rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.textarea {
+  border: 1px solid #999;
+  width: 550rpx;
+  height: 250rpx;
+}
+.image {
+  border: 1px solid #999;
+  width: 550rpx;
+  height: 300rpx;
+}
+.price {
+  box-sizing: border-box;
+  width: 550rpx;
+  height: 200rpx;
+  justify-content: space-around;
+}
+.price .priceTab {
+  border: 1px solid #eee;
+  border-radius: 40rpx;
+  width: 400rpx;
+  padding: 5rpx 0;
+}
+.price .tabView {
+  width: 180rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  line-height: 70rpx;
+}
+.price .priceText {
+  color: #999;
+}
+.price .priceInput {
+  width: 100rpx;
+}
+.placeholder {
+  color: #999;
+  font-size: 30rpx;
+}
+.active {
+  background-color: #40a9ff;
+}
