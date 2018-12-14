@@ -1,0 +1,21 @@
+
+# 微信小程序云开发环境配置 
+tags: 小程序,模板,云开发环境
+
+
+
+## 注册步骤：
+参考官网链接
+https://developers.weixin.qq.com/miniprogram/introduction/#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B3%A8%E5%86%8C
+## 完善资料：补充小程序名称信息，上传小程序头像，填写小程序介绍并选择服务范围。
+       ![图片](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/wx1.png)
+	   
+
+## 获取AppID：
+值得注意的是一定要记住自己的APPID，因为在开发过程中会经常用到。
+![图片](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/wx2.png)
+
+## 下载开发者工具：
+   * 详细可参考官网进行环境配置，下面简单说明如何配置单机环境。https://developers.weixin.qq.com/miniprogram/dev/
+   * 开发者工具下载链接：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=18121111
+   * 新建项目选择小程序项目，选择代码存放的硬盘路径，填入刚刚申请到的小程序的 AppID，给你的项目起一个好听的名字，  最后，勾选 "创建 QuickStart 项目" （注意: 你要选择一个空的目录才会有这个选项），点击确定，你就得到了你的第一个小程序了，  点击顶部菜单编译就可以在微信开发者工具中预览你的第一个小程序。
