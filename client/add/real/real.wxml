@@ -1,4 +1,3 @@
-<!-- pages/mine/mine.wxml -->
 <view>
   <view class="flexRow userinfo">
     <button class="flexRow left">
