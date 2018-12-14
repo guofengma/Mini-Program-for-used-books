@@ -7,7 +7,7 @@
       </view>
     </button>
     <view class="flexColumn right">
-      <text>暨大珠区</text>
+      <text>中大</text>
       <text class="userinfo-auth">{{real === false ? '未认证' : '已认证'}}</text>
     </view>
   </view>
