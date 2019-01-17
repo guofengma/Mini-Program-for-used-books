@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/about/about",
+    "pages/bookDetail/bookDetail",
+    "pages/operate/operate",
+    "pages/real/real",
+    "pages/list/list",
+    "pages/add/add",
+    "pages/chat/chat",
+    "pages/problem/problem",
+    "pages/choose/choose"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#DC143C",
+    "navigationBarTitleText": "中大二手书交易平台",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000000"
+  },
+
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#FF9C35",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "image/home_s.png",
+        "iconPath": "image/home.png",
+        "pagePath": "pages/first/first",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/order_s.png",
+        "iconPath": "image/order.png",
+        "pagePath": "pages/list/list",
+        "text": "订单"
+      },
+      {
+        "selectedIconPath": "image/mine_s.png",
+        "iconPath": "image/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+
+
+    ]    
+  },
+  
+  "debug": true
+}
