@@ -1,0 +1,53 @@
+
+.homeItem {
+  margin-left: 17rpx;
+  margin-top: 20rpx;
+  width: 350rpx;
+  height: 570rpx;
+  background-color: #fff;
+  font-size: 32rpx;
+}
+
+/* 第一行 */
+
+.first {
+  width: 350rpx;
+  height: 380rpx;
+  margin-top: 20rpx;
+}
+
+/* 第二行 */
+
+.second {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  margin-left: 50rpx;
+  margin-right: 20rpx;
+}
+
+.nick-name {
+  line-height: 50rpx;
+}
+
+/* 第三行 */
+
+.third {
+  height: 50rpx;
+  text-align: center;
+}
+
+/* 第四行 */
+
+.four {
+  width: 350rpx;
+  height: 50rpx;
+  color: #40a9ff;
+  text-align: center;
+}

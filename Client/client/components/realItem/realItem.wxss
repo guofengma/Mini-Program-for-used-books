@@ -1,0 +1,40 @@
+/* components/realtem/realItem.wxss */
+
+.item {
+  height: 100rpx;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 34rpx;
+  background-color: #ffffff;
+}
+
+.left {
+  width: 300rpx;
+  display: flex;
+  align-items: center;
+}
+
+.left-image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 60rpx;
+  margin-right: 20rpx;
+}
+
+.right {
+  width: 500rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.picker {}
+
+/* 
+.right-image {
+  width: 35rpx;
+  height: 35rpx;
+} */

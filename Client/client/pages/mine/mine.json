@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的信息",
+  "backgroundColor": "#333333",
+  "usingComponents": {
+    "mineItem": "../../components/mineItem/mineItem",
+    "space": "../../components/space/space"
+  }
+}

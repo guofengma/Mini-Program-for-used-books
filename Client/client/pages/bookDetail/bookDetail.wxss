@@ -1,0 +1,79 @@
+.bookDetail {
+  background-color: #fff;
+}
+.first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20rpx;
+}
+.first .avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 30rpx;
+}
+.first .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 32rpx;
+}
+.first .college {
+  color: #aaa;
+  font-size: 25rpx;
+}
+.second {
+  height: 400rpx;
+  display: flex;
+  margin: 20rpx 50rpx 0;
+}
+.second .cover {
+  width: 350rpx;
+  height: 400rpx;
+  margin-right: 20rpx;
+}
+.second .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+}
+.second .price {
+  margin-top: 50rpx;
+  color: #40a9ff;
+  font-size: 34rpx;
+}
+.third {
+  font-size: 32rpx;
+  padding: 20rpx 50rpx 40rpx;
+}
+.button {
+  height: 100rpx;
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.button .half {
+  width: 373rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #fff;
+  color: #40a9ff;
+}
+.button .middle {
+  width: 3rpx;
+  background-color: #ddd;
+}
+.contact-yes {
+  display: flex;
+  height: 110rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  margin-top: 30rpx;
+}

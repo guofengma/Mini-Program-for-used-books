@@ -1,0 +1,24 @@
+<!-- components/realtem/realItem.wxml -->
+<view class="item">
+  <view class="left">
+    <image class="left-image"
+           src="{{icon}}" />
+    <text>{{title}}</text>
+  </view>
+  <view class="right">
+    <input wx:if="{{name != 'college'}}"
+           type="{{name != 'phone' ? 'text': 'number'}}"
+           value="{{value}}"
+           placeholder="{{placeholder}}"
+           bindinput="input" />
+    <picker wx:elif="{{name === 'college'}}"
+            name="college"
+            class="picker"
+            mode="selector"
+            value="{{value}}"
+            range="{{collegeArray}}"
+            bind:change="chooseCollege">
+      <view class="my-picker">{{collegeArray[value]}}</view>
+    </picker>
+  </view>
+</view>

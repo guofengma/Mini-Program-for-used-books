@@ -1,0 +1,7 @@
+/* components/space/space.wxss */
+
+.space {
+  width: 100%;
+  height: 50rpx;
+  background: #eeeeee;
+}

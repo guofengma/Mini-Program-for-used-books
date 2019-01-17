@@ -1,0 +1,44 @@
+/* pages/first/first.wxss */
+.btn_op1{
+  text-align: center;
+  font-size:14px;
+  color:#FF9C35;
+  padding: 5px 20px;
+  border:1px solid #FF9C35;
+  border-radius: 25px;
+  width: 60px;
+  z-index: 10;
+}
+.btn_op2{
+  text-align: center;
+  font-size:14px;
+  color:#C71585;
+  padding: 5px 20px;
+  border:1px solid #C71585;
+  border-radius: 25px;
+  width: 60px;
+}
+
+.btn_op3{
+  text-align: center;
+  font-size:14px;
+  color:#4B0082;
+  padding: 5px 20px;
+  border:1px solid #4B0082;
+  border-radius: 25px;
+  width: 60px;
+}
+.btn-bar{
+  display: flex;
+  margin-top:20px;
+}
+.btn-block{
+  width: 50%;
+  display: flex;
+  justify-content:center;
+}
+.ad-box{
+  margin-top:30px;
+  width: 100%;
+  text-align: center;
+}

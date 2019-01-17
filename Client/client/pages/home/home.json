@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "homeItem": "../../components/homeItem/homeItem"
+  },
+  "enablePullDownRefresh": true
+}

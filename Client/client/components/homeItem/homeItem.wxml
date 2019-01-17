@@ -1,0 +1,22 @@
+<!--components/homeItem/homeItem.wxml-->
+<view class="homeItem">
+  <!-- 第一行，封面 -->
+  <image class="first"
+         src="{{cover}}"
+         mode="aspectFit" />
+  <!-- 第二行，头像和微信号 -->
+  <view class="second">
+    <image class="avatar"
+           src="{{avatarUrl}}"
+           mode="aspectFit" />
+    <text class="nick-name">{{nickName}}</text>
+  </view>
+  <!-- 第三行，书籍名称 -->
+  <view class="third">
+    <text>{{title}}</text>
+  </view>
+  <!-- 第四行，价格 -->
+  <view class="four">
+    <text>{{price === '0' ? '赠送': '￥ '+price}}</text>
+  </view>
+</view>

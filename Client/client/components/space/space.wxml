@@ -1,0 +1,2 @@
+<!-- components/space/space.wxml -->
+<view class="space" style="height: {{height}}"></view>

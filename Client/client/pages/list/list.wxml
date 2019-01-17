@@ -1,0 +1,23 @@
+<!--pages/list/list.wxml-->
+<view class="allBook"
+        wx:for="{{allBook}}"
+        wx:key="id">
+    <homeItem wx:if="{{index % 2 === 0}}"
+              idNumber="{{allBook[index]._id}}"
+              cover="{{allBook[index].cover}}"
+              avatarUrl="{{allBook[index].avatarUrl}}"
+              nickName="{{allBook[index].name}}"
+              title="{{allBook[index].title}}"
+              price="{{allBook[index].price}}"
+              data-id="{{index}}"
+              bind:tap="toDetailPage"></homeItem>
+    <homeItem wx:if="{{(index % 2 === 0) && allBook[index + 1] }}"
+              idNumber="{{allBook[index + 1]._id}}"
+              cover="{{allBook[index + 1].cover}}"
+              avatarUrl="{{allBook[index + 1].avatarUrl}}"
+              nickName="{{allBook[index + 1].name}}"
+              title="{{allBook[index + 1].title}}"
+              price="{{allBook[index + 1].price}}"
+              data-id="{{index + 1}}"
+              bind:tap="toDetailPage"></homeItem>
+  </view>

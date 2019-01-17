@@ -1,0 +1,67 @@
+<!-- pages/home/home.wxml -->
+<view class="home">
+  <!-- 第一栏，title -->
+  <view class="flexRow title">
+    <view class="left"><text>查找</text></view>
+    <input class="right"
+           type="search"
+           placeholder="输入关键字"
+           placeholderStyle="color: #aaa;text-align:center;"
+           bindinput="search" />
+  </view>
+
+  <!-- 第二栏，condition -->
+  <view class="flexRow condition">
+    <view class="half">
+      <picker mode="selector"
+              value="{{college}}"
+              range="{{collegeArray}}"
+              bindchange="chooseCollege">
+        <text>{{collegeArray[college]}}</text>
+      </picker>
+    </view>
+    <view class="middle"></view>
+    <view class="half">
+      <picker mode="selector"
+              value="{{bookList}}"
+              range="{{bookListArray}}"
+              bind:change="chooseBookList">
+        <text>{{bookListArray[bookList]}}</text>
+      </picker>
+    </view>
+    <view class="middle"></view>
+    <view class="half">
+      <picker mode="selector"
+              value="{{type}}"
+              range="{{typename}}"
+              bind:change="chooseBookType">
+        <text>{{typename[type]}}</text>
+      </picker>
+    </view>
+  </view>
+
+  <!-- 第三栏，所有书籍信息allBook -->
+  <view class="allBook"
+        wx:for="{{allBook}}"
+        wx:key="id">
+    <homeItem wx:if="{{index % 2 === 0}}"
+              idNumber="{{allBook[index]._id}}"
+              cover="{{allBook[index].cover}}"
+              avatarUrl="{{allBook[index].avatarUrl}}"
+              nickName="{{allBook[index].name}}"
+              title="{{allBook[index].title}}"
+              price="{{allBook[index].price}}"
+              data-id="{{index}}"
+              bind:tap="toDetailPage"></homeItem>
+    <homeItem wx:if="{{(index % 2 === 0) && allBook[index + 1] }}"
+              idNumber="{{allBook[index + 1]._id}}"
+              cover="{{allBook[index + 1].cover}}"
+              avatarUrl="{{allBook[index + 1].avatarUrl}}"
+              nickName="{{allBook[index + 1].name}}"
+              title="{{allBook[index + 1].title}}"
+              price="{{allBook[index + 1].price}}"
+              data-id="{{index + 1}}"
+              bind:tap="toDetailPage"></homeItem>
+  </view>
+  
+</view>

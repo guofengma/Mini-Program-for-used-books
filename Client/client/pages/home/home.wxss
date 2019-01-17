@@ -1,0 +1,37 @@
+.home {
+  font-size: 34rpx;
+}
+.title {
+  height: 100rpx;
+  background-color: #DC143C;
+  justify-content: space-around;
+}
+.title .left {
+  width: 150rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.title .right {
+  width: 500rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+}
+.condition {
+  height: 80rpx;
+  background-color: #fff;
+}
+.condition .half {
+  width: 320rpx;
+  text-align: center;
+}
+.condition .middle {
+  height: 40rpx;
+  width: 3rpx;
+  background-color: #ccc;
+}
+.allBook {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

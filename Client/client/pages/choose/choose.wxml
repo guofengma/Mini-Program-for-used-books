@@ -1,0 +1,36 @@
+<!--pages/choose/choose.wxml-->
+  <!-- 图片 -->
+<view class='choose'>
+  <view class="ad-box">
+    <image src='../../image/5.jpg' class="image_ad"></image>
+  </view>
+<view class='btn-bar'>
+    <view class='btn-block' bindtap='golist'>
+      <view class="btn_op1">个人二手书市场</view>
+    </view>
+</view>
+
+ <!-- 第三栏，所有书籍信息allStore -->
+  <view class="allStore"
+        wx:for="{{allStore}}"
+        wx:key="id">
+    <homeItem wx:if="{{index % 2 === 0}}"
+              idNumber="{{allStore[index]._id}}"
+              cover="{{allStore[index].cover}}"
+              avatarUrl="{{allStore[index].avatarUrl}}"
+              nickName="{{allStore[index].name}}"
+              title="{{allStore[index].title}}"
+              swear="{{allStore[index].swear}}"
+              data-id="{{index}}"
+              bind:tap="toStore"></homeItem>
+    <homeItem wx:if="{{(index % 2 === 0) && allStore[index + 1] }}"
+              idNumber="{{allStore[index + 1]._id}}"
+              cover="{{allStore[index + 1].cover}}"
+              avatarUrl="{{allStore[index + 1].avatarUrl}}"
+              nickName="{{allStore[index + 1].name}}"
+              title="{{allStore[index + 1].title}}"
+              swear="{{allStore[index + 1].swear}}"
+              data-id="{{index + 1}}"
+              bind:tap="toStore"></homeItem>
+  </view>
+</view>

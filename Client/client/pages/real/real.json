@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "信息认证",
+  "backgroundColor": "#333333",
+  "usingComponents": {
+    "space": "../../components/space/space",
+    "realItem": "../../components/realItem/realItem"
+  }
+}

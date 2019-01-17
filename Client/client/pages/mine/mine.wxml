@@ -1,0 +1,45 @@
+<!-- pages/mine/mine.wxml -->
+<view>
+  <view class="flexRow userinfo">
+    <button class="flexRow left"
+            bind:getuserinfo="doLogin"
+            open-type="getUserInfo">
+      <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : '../../utils/user-unlogin.png'}}" background-size="cover"></image>
+      <view class="userinfo-nickname">
+        <text>{{logged ? userInfo.nickName : '点击登录'}}</text>
+      </view>
+    </button>
+    <view class="flexColumn right"
+          bind:tap="doReal">
+      <text>中山大学</text>
+      <text class="userinfo-auth">{{real === false ? '未认证' : '已认证'}}</text>
+    </view>
+  </view>
+  <space height="40rpx" />
+  <mineItem title="我发布的"
+            icon="../../utils/iconMine/publish.png"
+            data-title="publish"
+            bind:tap="toDetailPage"></mineItem>
+  <mineItem title="我卖出的"
+            icon="../../utils/iconMine/sale.png"
+            data-title="sale"
+            bind:tap="toDetailPage">
+  </mineItem>
+  <mineItem title="我买到的"
+            icon="../../utils/iconMine/buy.png"
+            data-title="buyer"
+            bind:tap="toDetailPage">
+  </mineItem>
+  <!-- <mineItem title="我的消息"
+            icon="../../utils/iconMine/message.png">
+  </mineItem> -->
+  <space height="40rpx" />
+  <mineItem title="问题反馈"
+            icon="../../utils/iconMine/problem.png"
+            bind:tap="problem">
+  </mineItem>
+  <mineItem title="关于我们"
+            icon="../../utils/iconMine/about.png"
+            bind:tap="about">
+  </mineItem>
+</view>

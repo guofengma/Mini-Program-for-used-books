@@ -1,0 +1,10 @@
+<!-- components/mineItem/mineItem.wxml -->
+<view class="item">
+  <view class="left">
+    <image class="left-image" src="{{icon}}" />
+    <text>{{title}}</text>
+  </view>
+  <view class="right">
+    <image class="right-image" src="../../utils/iconMine/right.png" />
+  </view>
+</view>

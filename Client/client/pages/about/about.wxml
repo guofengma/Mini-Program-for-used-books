@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+<view class="about">
+  <text class="title">中大二手书交易平台</text>
+  <text class="number">V1.0 Beta</text>
+  <text>中大二手书交易平台目的是帮助中大学生打造一个平台让大家共享自己的图书，共享知识，将图书循环利用下去。</text>
+</view>

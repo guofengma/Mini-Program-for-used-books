@@ -1,0 +1,128 @@
+<view class="container">
+  <form bind:submit="formSubmit"
+        class="form">
+    <!-- 标题 -->
+    <view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;书名：</text>
+      <input name="title"
+             type="text"
+             confirm-type="done"
+             placeholder="请输入书籍名称"
+             placeholder-class="placeholder"
+             bind:focus="inputFocus"
+             bind:blur="inputBlur"
+             class="input"></input>
+    </view>
+<view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;作者：</text>
+      <input name="author"
+             type="text"
+             confirm-type="done"
+             placeholder="请输入书籍的作者"
+             placeholder-class="placeholder"
+             bind:focus="inputFocus"
+             bind:blur="inputBlur"
+             class="input"></input>
+    </view>
+    
+    <!-- 书单 -->
+    <view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;书单：</text>
+      <picker name="grade"
+              class="picker"
+              mode="selector"
+              value="{{pickerIndex}}"
+              range="{{pickerArray}}"
+              bindchange="choosePicker">
+        <view class="my-picker">{{pickerArray[pickerIndex]}}</view>
+      </picker>
+    </view>
+    <view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;校区：</text>
+      <picker name="grade"
+              class="picker"
+              mode="selector"
+              value="{{campusIndex}}"
+              range="{{campusArray}}"
+              bindchange="choosePicker2">
+        <view class="my-picker">{{campusArray[campusIndex]}}</view>
+      </picker>
+    </view>
+<view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;类型：</text>
+      <picker name="grade"
+              class="picker"
+              mode="selector"
+              value="{{typeIndex}}"
+              range="{{typeArray}}"
+              bindchange="choosePicker1">
+        <view class="my-picker">{{typeArray[typeIndex]}}</view>
+      </picker>
+    </view>
+    <!-- 描述 -->
+    <view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;描述：</text>
+      <textarea name="description"
+                class="textarea"
+                placeholder="请描述一下你的书本，比如几成新？"
+                placeholder-class="placeholder"
+                bind:focus="inputFocus"
+                bind:blur="inputBlur"></textarea>
+    </view>
+
+    <!-- 封面 -->
+    <view class="section">
+      <text class="text"
+            decode="true">&nbsp;&nbsp;封面：</text>
+      <image name="cover"
+             class="image"
+             src="{{imageSrc}}"
+             bind:tap="chooseImage"
+             mode="{{mode}}"></image>
+    </view>
+
+    <!-- 价格 -->
+    <view class="section">
+      <view class="flexColumn price">
+        <view class="flexRow priceTab">
+          <view class="tabView {{priceTab === 0 ? 'active': ''}}"
+                data-current="0"
+                bind:tap="choosePrice">
+            赠送
+          </view>
+          <view class="tabView {{priceTab === 1 ? 'active': ''}}"
+                data-current="1"
+                bind:tap="choosePrice">
+            开个价
+          </view>
+        </view>
+        <view class="priceText">
+          <view wx:if="{{priceTab === 0}}">我想送给师弟师妹，让他们来拿就好啦</view>
+          <view wx:else
+                class="flexRow">
+            <text>￥</text>
+            <input name="price"
+                   class="priceInput"
+                   type="digit"
+                   placeholder="0.00" />
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 确认发布按钮 -->
+    <view class="section">
+      <button form-type="submit"
+              type="default"
+              style="width: 70%;color: #FFF;background-color:#40a9ff;font-size: 34rpx;">
+    <text decode="true">确认发布</text>
+    </button>
+    </view>
+  </form>
+</view>

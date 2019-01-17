@@ -1,0 +1,51 @@
+<!--pages/bookDetail/bookDetail.wxml-->
+<!-- 书籍详情 -->
+<view class="bookDetail">
+  <!-- 第一行，头像，昵称，学院 -->
+  <view class="first">
+    <image class="avatar"
+           src="{{detail.avatarUrl}}"
+           mode="aspectFit"
+           lazy-load="false" />
+    <view class="text">
+      <text class="nick-name">{{detail.name}}</text>
+      <text class="college">中山大学 / {{detail.campus}}</text>
+    </view>
+  </view>
+
+  <!-- 第二行，封面、标题、价格 -->
+  <view class="second">
+    <image class="cover"
+           src="{{detail.cover}}"
+           mode="aspectFit"
+           lazy-load="true" />
+    <view class="text">
+      <text class="title">{{detail.title}}</text>
+      <text class="price">￥ {{detail.price === '0' ? '赠送': detail.price }}</text>
+    </view>
+  </view>
+
+  <!-- 第三行，描述 -->
+  <view class="third">
+    <text>{{detail.description}}</text>
+  </view>
+</view>
+
+<!-- 联系卖家，预订-->
+<view class="button">
+  <view class="half"
+        bind:tap="contact">
+    <text>联系卖家</text>
+  </view>
+  <div class="middle"></div>
+  <view class="half"
+        bind:tap="buy">
+    <text>{{detail.confirm === '0' ? '预定图书': '预订成功'}}</text>
+  </view>
+</view>
+
+<view wx:if="{{contactOrNot}}"
+      class="contact-yes">
+  <text>请添加卖家的微信：</text>
+  <text>{{detail.wechat}}</text>
+</view>

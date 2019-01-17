@@ -1,0 +1,89 @@
+.bookDetail {
+  background-color: #fff; // border: 1rpx solid #f00;
+}
+
+// 第一行，头像，昵称，学院
+.first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; // border: 1rpx solid #0f0;
+  padding-top: 20rpx;
+  .avatar {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 40rpx;
+    margin-left: 50rpx;
+    margin-right: 30rpx;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 32rpx;
+  }
+  .college {
+    color: #aaa;
+    font-size: 25rpx;
+  }
+}
+
+// 第二行，封面、标题、价格
+.second {
+  height: 400rpx; // border: 1rpx solid #0ff;
+  display: flex;
+  margin: 20rpx 50rpx 0;
+  .cover {
+    width: 350rpx;
+    height: 400rpx;
+    margin-right: 20rpx;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40rpx;
+  }
+  .price {
+    margin-top: 50rpx;
+    color: #40a9ff;
+    font-size: 34rpx;
+  }
+}
+
+// 第三行，描述
+.third {
+  font-size: 32rpx;
+  padding: 20rpx 50rpx 40rpx;
+}
+
+// 联系卖家，预定
+.button {
+  height: 100rpx; // border: 1rpx solid #f00;
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  .half {
+    width: 373rpx;
+    text-align: center;
+    line-height: 100rpx;
+    background-color: #fff;
+    color: #40a9ff;
+  }
+  .middle {
+    width: 3rpx;
+    background-color: #ddd;
+  }
+}
+
+// 联系卖家
+.contact-yes {
+  display: flex;
+  height: 110rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  margin-top: 30rpx;
+}
