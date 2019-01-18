@@ -19,3 +19,6 @@
  我的环境名为test
 *   腾讯云开发环境开通，可参考以下链接https://cloud.tencent.com/document/product/619/11447
 ，在开通和配置过程中出现过各种bug，需要耐心。注意，按照官方文档的做法，在最后测试登录的时候会出现登录失败error的情况需要参考文档https://github.com/tencentyun/wafer2-quickstart/issues/13
+ ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/cloud1.png)
+ 开通成功后如下图所示：
+ ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/cloud2.png)
