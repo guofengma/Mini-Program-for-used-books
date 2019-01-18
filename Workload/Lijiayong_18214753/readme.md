@@ -17,10 +17,8 @@
 可根据需要选择个人二手书市场和商家的专卖场<br>
  ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show2.png?raw=true) <br>
  可根据需要输入书名关键字，根据各种检索条件搜索书名：<br>
-  ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show3.png?raw=true)<br>
-   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show4.png?raw=true)<br>
-   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show5.png?raw=true)<br>
-   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show6.png?raw=true)<br>
+  ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show3.png?raw=true)![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show4.png?raw=true)<br>
+   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show5.png?raw=true)![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show6.png?raw=true)<br>
    点击书名进入书本详情页面：<br>
    ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show7.png?raw=true)<br>
    点击联系卖家可得到卖家微信号，双方进行联系：<br>
