@@ -11,7 +11,7 @@
  * [6.swagger测试api](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/6_swagger%E6%B5%8B%E8%AF%95api.md)
  
  ## 程序运行结果
- 主界面：
+ 主界面：<br>
  ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show1.png?raw=true)
 ### 功能点：购书
 可根据需要选择个人二手书市场和商家的专卖场<br>
