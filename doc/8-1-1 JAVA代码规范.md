@@ -51,7 +51,8 @@ Java中，除了包名，静态常量等特殊情况，大部分情况下标识�
 首字母小写，如 addOrder() 不要 AddOrder() <br>
 动词在前，如 addOrder()，不要orderAdd() <br>
 动词前缀往往表达特定的含义，如下表：
-| 前缀名|	意义|	举例|
+
+| 前缀名 |	意义 |	举例 |
 | ------ | ------ | ------ |
 |create|	创建|	createOrder()|
 |delete	|删除	|deleteOrder()|
