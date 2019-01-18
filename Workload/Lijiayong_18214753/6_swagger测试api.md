@@ -1,7 +1,7 @@
 # swagger测试api
 * 1.搭建完Springboot 项目后在pom文件中添加依赖
 
-![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/sg1.png?raw=true
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/sg1.png?raw=true)
 
 * 2.创建配置类 SwaggerConfig
 
