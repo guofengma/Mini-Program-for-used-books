@@ -1,7 +1,7 @@
 # swagger测试api
 * 1.搭建完Springboot 项目后在pom文件中添加依赖
 
-![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/sg1.png?raw=true <br>
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/sg1.png?raw=true
 
 * 2.创建配置类 SwaggerConfig
 
@@ -20,8 +20,7 @@
 
 
         @ApiModelProperty()用于实体类字段 
-        表示对model属性的说明或者数据操作更改 
-　　      value–字段说明 name–重写属性名字 dataType–重写属性类型 required–是否必填 example–举例说明 hidden–隐藏
+        表示对model属性的说明或者数据操作更改 value–字段说明 name–重写属性名字 dataType–重写属性类型 required–是否必填 example–举例说明 hidden–隐藏
 
 
         @ApiImplicitParam() 用于 controller 方法 
