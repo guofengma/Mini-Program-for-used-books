@@ -5,9 +5,9 @@
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/sg2.png?raw=true)
 * 3 对接口和实体类添加注释，生成doc。常用的标记如下
 
-@Api()用于类； 
-标识这个类是swagger的资源
-　　tags–表示分组说明标签
+    @Api()用于类； 
+    标识这个类是swagger的资源
+　　    tags–表示分组说明标签
 
 @ApiOperation()用于方法； 
 表示一个http请求的操作
