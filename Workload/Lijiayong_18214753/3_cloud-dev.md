@@ -14,13 +14,13 @@
 具体可以参考官方文档：https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
 ##配置过程：
-*  创建了第一个云开发小程序后，在使用云开发能力之前需要先开通云开发。在开发者工具工具栏左侧，点击 “云开发” 按钮即可开通云开发。云开发开通后自动获得一套云开发环境，各个环境相互隔离，每个环境都包含独立的数据库实例、存储空间、云函数配置等资源。每个环境都有唯一的环境 ID 标识，初始创建的环境自动成为默认环境。
+*  开通小程序云开发：创建了第一个云开发小程序后，在使用云开发能力之前需要先开通云开发。在开发者工具工具栏左侧，点击 “云开发” 按钮即可开通云开发。云开发开通后自动获得一套云开发环境，各个环境相互隔离，每个环境都包含独立的数据库实例、存储空间、云函数配置等资源。每个环境都有唯一的环境 ID 标识，初始创建的环境自动成为默认环境。
  ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/3.png)
  我的环境名为test
-*   腾讯云开发环境开通，可参考以下链接https://cloud.tencent.com/document/product/619/11447
+*   腾讯云开发环境开通： 可参考以下链接https://cloud.tencent.com/document/product/619/11447
 ，在开通和配置过程中出现过各种bug，需要耐心。注意，按照官方文档的做法，在最后测试登录的时候会出现登录失败error的情况需要参考文档https://github.com/tencentyun/wafer2-quickstart/issues/13
  ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/cloud1.png)
  开通成功后如下图所示：
  ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/cloud2.png)
-*   nodejs环境配置
+*   nodejs环境配置：
     参考网站：https://www.cnblogs.com/zhouyu2017/p/6485265.html  主要步骤为下载安装->配置npm的环境变量
