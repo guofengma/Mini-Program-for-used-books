@@ -22,3 +22,5 @@
  ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/cloud1.png)
  开通成功后如下图所示：
  ![pic](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/cloud2.png)
+*   nodejs环境配置
+    参考网站：https://www.cnblogs.com/zhouyu2017/p/6485265.html  主要步骤为下载安装->配置npm的环境变量
