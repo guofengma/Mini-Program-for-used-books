@@ -1,0 +1,31 @@
+# 本地开发环境配置
+小程序是前后端分离的，通过API传递JSON格式的信息进行前后端交互。主要的框架包含如下：
+## Spring MVC
+SpringMVC是一种基于Java，实现了Web MVC设计模式，请求驱动类型的轻量级Web框架，即使用了MVC架构模式的思想，将Web层进行职责解耦。
+基于请求驱动指的就是使用请求-响应模型，框架的目的就是帮助我们简化开发，SpringMVC也是要简化我们日常Web开发。
+传统的模型层被拆分为了业务层(Service)和数据访问层（DAO,Data Access Object）。在 Service 下可以通过 Spring 
+的声明式事务操作数据访问层，而在业务层上还允许我们访问 NoSQL ，这样就能够满足异军突起的 NoSQL 的使用了，它可以大大提高互联网系统的性能。<br>
+
+特点：
+结构松散，几乎可以在 Spring MVC 中使用各类视图 <br>
+松耦合，各个模块分离   <br>
+与 Spring 无缝集成 <br>
+SpringMVC架构：
+
+SpringMVC的核心架构： 
+
+具体流程：
+
+（1）首先用户发送请求——>DispatcherServlet，前端控制器收到请求后自己不进行处理，而是委托给其他的解析器进行处理，作为统一访问点，进行全局的流程控制；
+
+（2）DispatcherServlet——>HandlerMapping，处理器映射器将会把请求映射为HandlerExecutionChain对象（包含一个Handler处理器对象、多个HandlerInterceptor拦截器）对象；
+
+（3）DispatcherServlet——>HandlerAdapter，处理器适配器将会把处理器包装为适配器，从而支持多种类型的处理器，即适配器设计模式的应用，从而很容易支持很多类型的处理器；
+
+（4）HandlerAdapter——>调用处理器相应功能处理方法，并返回一个ModelAndView对象（包含模型数据、逻辑视图名）；
+
+（5）ModelAndView对象（Model部分是业务对象返回的模型数据，View部分为逻辑视图名）——> ViewResolver， 视图解析器将把逻辑视图名解析为具体的View；
+
+（6）View——>渲染，View会根据传进来的Model模型数据进行渲染，此处的Model实际是一个Map数据结构；
+
+（7）返回控制权给DispatcherServlet，由DispatcherServlet返回响应给用户，到此一个流程结束。
