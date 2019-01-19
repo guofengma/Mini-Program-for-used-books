@@ -28,11 +28,11 @@ layout: default
     - 7.4 [软件架构文档](7-4ArchitectureDocument)
     - 7.5 [用例设计](7-5Usercase)
 * 8、生产规范与指南
-    - 8.1 [JAVA代码规范](8-1-1 JAVA代码规范)
-    - 8.2 [小程序代码规范](8-1-2 小程序代码规范)
-    - 8.3 [REST API设计规范](8-2 REST API 设计规范)
-    - 8.4 [框架目录设计与逻辑架构与 ECB 的关系](8-3 框架目录设计与逻辑架构与ECB的关系)
-    - 8.5 [部署文档](8-4 部署文档)
+    - 8.1 [JAVA代码规范](8-1-1JAVA代码规范)
+    - 8.2 [小程序代码规范](8-1-2小程序代码规范)
+    - 8.3 [REST API设计规范](8-2REST-API-设计规范)
+    - 8.4 [框架目录设计与逻辑架构与 ECB 的关系](8-3框架目录设计与逻辑架构与ECB的关系)
+    - 8.5 [部署文档](8-4部署文档)
 * X1 meet_recording
     - [Inception meeting (2018/09/29)](Inception-meeting)
     - [Iteration 1 meeting (2018/10/20)](Iteration-1)
