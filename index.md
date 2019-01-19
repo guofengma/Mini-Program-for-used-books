@@ -21,7 +21,7 @@ layout: default
 
 * 7、Design 设计
     - 7.1 UI design UI 设计
-        - [XX 用例 UI 设计](7-1UIdesign)
+        - [ 用例 UI 设计](7-1UIdesign)
     - 7.2 Database design 数据库设计
         - 7.2.1 [用户及权限系统数据库设计](7-2Datebasedesign)
     - 7.3 [API 设计](7-3 API design)
