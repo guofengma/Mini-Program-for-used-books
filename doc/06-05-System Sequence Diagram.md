@@ -24,3 +24,8 @@
 ### 3.书本详细信息
 用户对于感兴趣的书本可以通过点击进入详情页面查看书本的详细信息
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-03.png)
+
+
+### 4.预定图书
+在用户确定某本书是自己想要的以后可以预定图书，加入到自己的订单中，图书自动从待卖列表中消失
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-04.png)
