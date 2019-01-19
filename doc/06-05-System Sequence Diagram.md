@@ -29,3 +29,8 @@
 ### 4.预定图书
 在用户确定某本书是自己想要的以后可以预定图书，加入到自己的订单中，图书自动从待卖列表中消失
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-04.png)
+
+
+### 5.增加新书
+可以将自己无用的二手书信息、定价等发布，成为卖方
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-05.png)
