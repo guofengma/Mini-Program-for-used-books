@@ -14,3 +14,7 @@
 ### 1.信息认证
 用户最开始使用的时候需要认证真实信息
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-01.png)
+
+### 2.浏览二手市场
+用户进入二手市场浏览目前已存在的二手书列表
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-02.png)
