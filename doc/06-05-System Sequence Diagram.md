@@ -34,3 +34,8 @@
 ### 5.增加新书
 可以将自己无用的二手书信息、定价等发布，成为卖方
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-05.png)
+
+
+### 6.搜索图书
+根据自己的喜好（如类型，所在校区等）搜索符合条件的书籍。
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-06.png)
