@@ -24,7 +24,7 @@ layout: default
         - [ 用例 UI 设计](7-1UIdesign)
     - 7.2 Database design 数据库设计
         - 7.2.1 [用户及权限系统数据库设计](7-2Datebasedesign)
-    - 7.3 [API 设计](7-3 API-design)
+    - 7.3 [API 设计](7-3API-design)
     - 7.4 [软件架构文档](7-4ArchitectureDocument)
     - 7.5 [用例设计](7-5Usercase)
 * 8、生产规范与指南
