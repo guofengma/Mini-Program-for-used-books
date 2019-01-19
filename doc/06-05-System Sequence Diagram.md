@@ -13,3 +13,4 @@
 ## 系统顺序图
 ### 1.信息认证
 用户最开始使用的时候需要认证真实信息
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-01.png)
