@@ -38,7 +38,7 @@ layout: default
     - [Iteration 1 meeting (2018/10/20)](Iteration-1)
     - [Iteration 2 meeting (2018/12/07)](Iteration-2)
     - [Iteration 3 meeting (2019/01/05)](Iteration-3)
-* [X2 Personal Report](Personal-report)
+* [X2 Personal Report]
     - [15331253-ECer23](https://www.jianshu.com/p/edae2a252471)
     - [15331238-BeAShper](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [15331229-longjj](https://www.zybuluo.com/longj/note/1198045)
