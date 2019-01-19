@@ -8,7 +8,7 @@ layout: default
 &nbsp;&nbsp; 
 
 * 1、[About 项目规划](1-About)
-* 2、[Team profile 团队组建](2-Team profile)
+* 2、[Team profile 团队组建](2-Team-profile)
 * 3、[Investigation 项目前期调研](3-Investigation)
 * 4、[Vision 项目愿景](4-Vision)
 * 5、[Product Backlog 产品特性](5-Product Backlog)
