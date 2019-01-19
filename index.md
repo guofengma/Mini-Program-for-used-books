@@ -38,17 +38,13 @@ layout: default
     - [Iteration 1 meeting (2018/10/20)](Iteration-1)
     - [Iteration 2 meeting (2018/12/07)](Iteration-2)
     - [Iteration 3 meeting (2019/01/05)](Iteration-3)
-* [X2 Tech/Work Report](X2-techwork-report)
-* [X3 Final Report](X3-final-report)
+* [X2 Personal Report](Personal-report)
     - [15331253-ECer23](https://www.jianshu.com/p/edae2a252471)
     - [15331238-BeAShper](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [15331229-longjj](https://www.zybuluo.com/longj/note/1198045)
     - [15331200-YungLinjy](https://blog.csdn.net/yung_lin/article/details/80869708)
     - [15331251-Arururururu](https://github.com/Arururururu/SAD/blob/master/X3-final-report.md)
-* XX 建模练习
-    - [XX1 Google Tranlate 应⽤](XX1-google-translate-app)
-    - [XX2 建模要求](XX2-modeling-requirements)
-    - [XX3 建模者答案与评价](XX3-modeling-answer)
+
 
 
 
