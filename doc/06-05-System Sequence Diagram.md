@@ -15,6 +15,12 @@
 用户最开始使用的时候需要认证真实信息
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-01.png)
 
+
 ### 2.浏览二手市场
 用户进入二手市场浏览目前已存在的二手书列表
 ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-02.png)
+
+
+### 3.书本详细信息
+用户对于感兴趣的书本可以通过点击进入详情页面查看书本的详细信息
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/img/06-05-03.png)
