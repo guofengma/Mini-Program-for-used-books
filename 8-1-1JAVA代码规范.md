@@ -50,6 +50,7 @@ Java中，除了包名，静态常量等特殊情况，大部分情况下标识�
 ### 1.4 方法名
 首字母小写，如 addOrder() 不要 AddOrder() <br>
 动词在前，如 addOrder()，不要orderAdd() <br>
+find方法在业务层尽量表达业务含义，比如 findUnsettledOrders()，查询未结算订单，而不要findOrdersByStatus()。 数据访问层，find,update等方法可以表达要执行的sql，比如findByStatusAndSupplierIdOrderByName(Status.PAID, 345)<br>
 动词前缀往往表达特定的含义，如下表：
 
 | 前缀名 |	意义 |	举例 |
@@ -80,7 +81,7 @@ Java中，除了包名，静态常量等特殊情况，大部分情况下标识�
 | find| 	查找对象| 	findNewSupplier()| 
 | update| 	更新对象| 	updateCommission()| 
 
-find方法在业务层尽量表达业务含义，比如 findUnsettledOrders()，查询未结算订单，而不要findOrdersByStatus()。 数据访问层，find,update等方法可以表达要执行的sql，比如findByStatusAndSupplierIdOrderByName(Status.PAID, 345)
+
 ### 1.5 域（field）名
 #### 1.5.1 静态常量
 全大写用下划线分割，如
