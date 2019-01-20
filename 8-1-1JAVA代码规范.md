@@ -56,10 +56,10 @@ Java中，除了包名，静态常量等特殊情况，大部分情况下标识�
 | ------ | ------ | ------ |
 |create|	创建|	createOrder()|
 |delete	|删除	|deleteOrder()|
-|add|	创建，暗示新创建的对象属于某个集合	|addPaidOrder()|
+|add|	创建	|addPaidOrder()|
 |remove	|删除|	removeOrder()|
-|init或则initialize	|初始化，暗示会做些诸如获取资源等特殊动作|	initializeObjectPool|
-|destroy	|销毁，暗示会做些诸如释放资源的特殊动作	|destroyObjectPool|
+|init或则initialize	|初始化|	initializeObjectPool|
+|destroy	|销毁|destroyObjectPool|
 |open	|打开	|openConnection()|
 |close|	关闭	|closeConnection()|
 | read	|读取|	readUserName()|
@@ -70,8 +70,8 @@ Java中，除了包名，静态常量等特殊情况，大部分情况下标识�
 | copy	 |复制	| copyCustomerList() |
 | modity	| 修改| 	modifyActualTotalAmount()| 
 | calculate	| 数值计算| 	calculateCommission()| 
-| do| 	执行某个过程或流程| 	doOrderCancelJob()| 
-| dispatch| 	判断程序流程转向| 	dispatchUserRequest()| 
+| do|执行某个过程或流程| 	doOrderCancelJob()| 
+| dispatch|判断程序流程转向| 	dispatchUserRequest()| 
 | start	| 开始| 	startOrderProcessing()| 
 | stop| 	结束| 	stopOrderProcessing()| 
 | send| 	发送某个消息或事件| 	sendOrderPaidMessage()| 
@@ -79,6 +79,7 @@ Java中，除了包名，静态常量等特殊情况，大部分情况下标识�
 | respond| 	响应用户动作| 	responseOrderListItemClicked()| 
 | find| 	查找对象| 	findNewSupplier()| 
 | update| 	更新对象| 	updateCommission()| 
+
 find方法在业务层尽量表达业务含义，比如 findUnsettledOrders()，查询未结算订单，而不要findOrdersByStatus()。 数据访问层，find,update等方法可以表达要执行的sql，比如findByStatusAndSupplierIdOrderByName(Status.PAID, 345)
 ### 1.5 域（field）名
 #### 1.5.1 静态常量
