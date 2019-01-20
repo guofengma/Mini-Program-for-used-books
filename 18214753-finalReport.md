@@ -11,7 +11,7 @@
  * [5.后端架构与部署](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/5_%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E5%92%8C%E9%83%A8%E7%BD%B2.md)
  * [6.swagger测试api](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/6_swagger%E6%B5%8B%E8%AF%95api.md)
  
- ## 程序运行结果
+ ## 程序运行结果<br>
  
  主界面：<br>
  ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show1.png?raw=true)
@@ -35,5 +35,5 @@
    ### 功能点：发布图书
   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show17.png?raw=true)![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show18.png?raw=true)<br>
   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show19.png?raw=true)<br>
-  ### 功能点3：实名认证后，才能进行购书
+  ### 功能点3：实名认证后，才能进行购书<br>
   ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show20.png?raw=true)<br>
