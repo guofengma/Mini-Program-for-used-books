@@ -13,7 +13,7 @@
  
  ## 程序运行结果
  
- 主界面：<br>
+ <br> 主界面：<br>
  ![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/show1.png?raw=true)
 ### 功能点：购书
 可根据需要选择个人二手书市场和商家的专卖场<br>
