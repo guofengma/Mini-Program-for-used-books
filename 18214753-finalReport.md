@@ -1,5 +1,6 @@
 # 个人工作总结
-`李嘉泳  18214753` <br>
+`李嘉泳  18214753` 个人GitHub： https://github.com/resisterdkdk/Mini-Program-for-used-books/<br>
+![image](https://github.com/resisterdkdk/Mini-Program-for-used-books/blob/master/Workload/Lijiayong_18214753/images/pic/work.png?raw=true)
   1.担任全栈开发，包括微信小程序的前端（WXML WXSS WXJS），云开发（腾讯云），后端开发（spring mvc+MongoDB）的配置和开发，实现了中大二手书小程序的基本功能，包括个人发布图书，商家入驻，购买图书的功能。<br>
   2.制定代码规范。<br>
   3.api文档编写。<br>
